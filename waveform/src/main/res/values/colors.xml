@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_waveform">#178b51</color>
+    <color name="default_waveformFill">#80FFC0</color>
+    <color name="default_playback_indicator">#ffff66</color>
+    <color name="default_timecode">#ddffffdd</color>
+    <color name="default_background">#000000</color>
+</resources>
