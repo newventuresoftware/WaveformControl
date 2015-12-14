@@ -5,6 +5,7 @@ The component supports 2 modes:
 * Recording: Suitable for use when recording audio.
 * Playback: Suitable for use when playing audio. Samples are displayed as a classical waveform with optional playback indicator.
 
+##Examples:
 Recording Example:
 
 **activity_main.xml**
@@ -61,3 +62,5 @@ mPlaybackView.setSampleRate(44100);
 mPlaybackView.setSamples(samples);
 ```
 
+##License
+MIT
