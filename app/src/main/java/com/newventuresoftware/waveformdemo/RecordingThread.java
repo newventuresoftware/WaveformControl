@@ -88,7 +88,7 @@ public class RecordingThread {
 
         long shortsRead = 0;
         while (mShouldContinue) {
-            int numberOfShort = record.read(audioBuffer, 0, bufferSize / 2);
+            int numberOfShort = record.read(audioBuffer, 0, audioBuffer.length);
             shortsRead += numberOfShort;
 
             // Notify waveform
