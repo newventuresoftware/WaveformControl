@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                     playFab.setImageResource(android.R.drawable.ic_media_play);
                 }
             });
-            mPlaybackView.setChannels(PlaybackThread.CHANNELS);
+            mPlaybackView.setChannels(1);
             mPlaybackView.setSampleRate(PlaybackThread.SAMPLE_RATE);
             mPlaybackView.setSamples(samples);
 
@@ -119,7 +119,6 @@ public class MainActivity extends AppCompatActivity {
 
         mRecordingThread.stopRecording();
         mPlaybackThread.stopPlayback();
-        mPlaybackThread.release();
     }
 
     private short[] getAudioSample() throws IOException{
