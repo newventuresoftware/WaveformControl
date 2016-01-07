@@ -1,6 +1,8 @@
 # WaveformView
 Interface for displaying audio data as waveform for Android.
 
+![alt tag](http://www.newventuresoftware.com/wordpress/wp-content/uploads/2015/12/device-2015-12-14-161713.png)
+
 The component supports 2 modes:
 * Recording: Suitable for use when recording audio.
 * Playback: Suitable for use when playing audio. Samples are displayed as a classical waveform with optional playback indicator.
