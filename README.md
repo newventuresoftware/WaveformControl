@@ -64,5 +64,7 @@ mPlaybackView.setSampleRate(44100);
 mPlaybackView.setSamples(samples);
 ```
 
+For more information on recording and playback of raw audio in Android check out my [blog post] (http://www.newventuresoftware.com/blog/record-play-and-visualize-raw-audio-data-in-android/).
+
 ##License
 MIT
