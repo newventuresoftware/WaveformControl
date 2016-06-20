@@ -255,6 +255,9 @@ public class WaveformView extends View {
 
         short[][] extremes = SamplingUtils.getExtremes(buffer, width);
 
+
+        waveformPath.moveTo(0, centerY);
+
         // draw maximums
         for (int x = 0; x < width; x++) {
             short sample = extremes[x][0];
