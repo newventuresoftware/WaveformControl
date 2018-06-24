@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WaveformDemo.iml" filepath="$PROJECT_DIR$/WaveformDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaveformControl.iml" filepath="$PROJECT_DIR$/WaveformControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/waveform/waveform.iml" filepath="$PROJECT_DIR$/waveform/waveform.iml" />
     </modules>
